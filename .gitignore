@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+**/node_modules
+# roadhog-api-doc ignore
+/Blog-Frontend/src/utils/request-temp.js
+/Blog-Frontend_roadhog-api-doc
+
+# production
+/Blog-Frontend/dist
+/Blog-Frontend/.vscode
+
+# misc
+/Blog-Frontend.DS_Store
+/Blog-Frontendnpm-debug.log*
+/Blog-Frontendyarn-error.log
+
+/Blog-Frontend/coverage
+/Blog-Frontend.idea
+/Blog-Frontend/Blog-Frontendyarn.lock
+/Blog-Frontendpackage-lock.json
+/Blog-Frontend*bak
+/Blog-Frontend.vscode
+
+# visual studio code
+/Blog-Frontend.history
+/Blog-Frontend*.log
+/Blog-Frontendfunctions/*
+/Blog-Frontend.temp/**
+
+# umi
+/Blog-Frontend.umi
+/Blog-Frontend.umi-production
+
+# screenshot
+/Blog-Frontendscreenshot
+/Blog-Frontend.firebase
+/Blog-Frontend.eslintcache
+
+/Blog-Frontendbuild
