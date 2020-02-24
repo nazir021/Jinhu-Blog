@@ -35,6 +35,7 @@ export interface FormDataType {
 }
 
 class Login extends Component<LoginProps, LoginState> {
+
   loginForm: FormComponentProps['form'] | undefined | null = undefined;
 
   state: LoginState = {
@@ -177,6 +178,8 @@ class Login extends Component<LoginProps, LoginState> {
       </div>
     );
   }
+
+  
 }
 
 export default connect(

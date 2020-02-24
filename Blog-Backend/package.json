@@ -11,7 +11,7 @@
   "keywords": [
       "blog"
   ],
-  "author": "pedro",
+  "author": "jinhu",
   "license": "MIT",
   "devDependencies": {
     "@types/eslint": "^4.16.6",

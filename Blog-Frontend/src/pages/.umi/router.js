@@ -8,7 +8,7 @@ import {
 import dynamic from 'umi/dynamic';
 import renderRoutes from 'umi/lib/renderRoutes';
 import history from '@@/history';
-import RendererWrapper0 from '/Users/wangjinhu/Github/AntDesign/src/pages/.umi/LocaleWrapper.jsx';
+import RendererWrapper0 from '/Users/wangjinhu/.Trash/Blog-Frontend/src/pages/.umi/LocaleWrapper.jsx';
 import { routerRedux, dynamic as _dvaDynamic } from 'dva';
 
 const Router = routerRedux.ConnectedRouter;
@@ -20,7 +20,7 @@ const routes = [
       ? _dvaDynamic({
           component: () =>
             import(/* webpackChunkName: "layouts__BlankLayout" */ '../../layouts/BlankLayout'),
-          LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+          LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
             .default,
         })
       : require('../../layouts/BlankLayout').default,
@@ -31,7 +31,7 @@ const routes = [
           ? _dvaDynamic({
               component: () =>
                 import(/* webpackChunkName: "layouts__UserLayout" */ '../../layouts/UserLayout'),
-              LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+              LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                 .default,
             })
           : require('../../layouts/UserLayout').default,
@@ -49,7 +49,7 @@ const routes = [
               ? _dvaDynamic({
                   app: require('@tmp/dva').getApp(),
                   models: () => [
-                    import(/* webpackChunkName: 'p__user__login__model.ts' */ '/Users/wangjinhu/Github/AntDesign/src/pages/user/login/model.ts').then(
+                    import(/* webpackChunkName: 'p__user__login__model.ts' */ '/Users/wangjinhu/.Trash/Blog-Frontend/src/pages/user/login/model.ts').then(
                       m => {
                         return { namespace: 'model', ...m.default };
                       },
@@ -57,7 +57,7 @@ const routes = [
                   ],
                   component: () =>
                     import(/* webpackChunkName: "p__user__login" */ '../user/login'),
-                  LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                  LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                     .default,
                 })
               : require('../user/login').default,
@@ -71,7 +71,7 @@ const routes = [
               ? _dvaDynamic({
                   component: () =>
                     import(/* webpackChunkName: "p__user__register-result" */ '../user/register-result'),
-                  LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                  LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                     .default,
                 })
               : require('../user/register-result').default,
@@ -86,7 +86,7 @@ const routes = [
               ? _dvaDynamic({
                   app: require('@tmp/dva').getApp(),
                   models: () => [
-                    import(/* webpackChunkName: 'p__user__register__model.ts' */ '/Users/wangjinhu/Github/AntDesign/src/pages/user/register/model.ts').then(
+                    import(/* webpackChunkName: 'p__user__register__model.ts' */ '/Users/wangjinhu/.Trash/Blog-Frontend/src/pages/user/register/model.ts').then(
                       m => {
                         return { namespace: 'model', ...m.default };
                       },
@@ -94,7 +94,7 @@ const routes = [
                   ],
                   component: () =>
                     import(/* webpackChunkName: "p__user__register" */ '../user/register'),
-                  LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                  LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                     .default,
                 })
               : require('../user/register').default,
@@ -106,7 +106,7 @@ const routes = [
               ? _dvaDynamic({
                   component: () =>
                     import(/* webpackChunkName: "p__404" */ '../404'),
-                  LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                  LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                     .default,
                 })
               : require('../404').default,
@@ -115,7 +115,7 @@ const routes = [
           {
             component: () =>
               React.createElement(
-                require('/Users/wangjinhu/Github/AntDesign/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+                require('/Users/wangjinhu/.Trash/Blog-Frontend/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
                   .default,
                 { pagesPath: 'src/pages', hasRoutesInConfig: true },
               ),
@@ -128,7 +128,7 @@ const routes = [
           ? _dvaDynamic({
               component: () =>
                 import(/* webpackChunkName: "layouts__BasicLayout" */ '../../layouts/BasicLayout'),
-              LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+              LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                 .default,
             })
           : require('../../layouts/BasicLayout').default,
@@ -148,7 +148,7 @@ const routes = [
                   ? _dvaDynamic({
                       app: require('@tmp/dva').getApp(),
                       models: () => [
-                        import(/* webpackChunkName: 'p__dashboard__workplace__model.ts' */ '/Users/wangjinhu/Github/AntDesign/src/pages/dashboard/workplace/model.ts').then(
+                        import(/* webpackChunkName: 'p__dashboard__workplace__model.ts' */ '/Users/wangjinhu/.Trash/Blog-Frontend/src/pages/dashboard/workplace/model.ts').then(
                           m => {
                             return { namespace: 'model', ...m.default };
                           },
@@ -156,7 +156,7 @@ const routes = [
                       ],
                       component: () =>
                         import(/* webpackChunkName: "layouts__BasicLayout" */ '../dashboard/workplace'),
-                      LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                      LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                         .default,
                     })
                   : require('../dashboard/workplace').default,
@@ -170,7 +170,7 @@ const routes = [
                   ? _dvaDynamic({
                       app: require('@tmp/dva').getApp(),
                       models: () => [
-                        import(/* webpackChunkName: 'p__dashboard__analysis__model.tsx' */ '/Users/wangjinhu/Github/AntDesign/src/pages/dashboard/analysis/model.tsx').then(
+                        import(/* webpackChunkName: 'p__dashboard__analysis__model.tsx' */ '/Users/wangjinhu/.Trash/Blog-Frontend/src/pages/dashboard/analysis/model.tsx').then(
                           m => {
                             return { namespace: 'model', ...m.default };
                           },
@@ -178,7 +178,7 @@ const routes = [
                       ],
                       component: () =>
                         import(/* webpackChunkName: "layouts__BasicLayout" */ '../dashboard/analysis'),
-                      LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                      LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                         .default,
                     })
                   : require('../dashboard/analysis').default,
@@ -192,7 +192,7 @@ const routes = [
                   ? _dvaDynamic({
                       app: require('@tmp/dva').getApp(),
                       models: () => [
-                        import(/* webpackChunkName: 'p__dashboard__monitor__model.ts' */ '/Users/wangjinhu/Github/AntDesign/src/pages/dashboard/monitor/model.ts').then(
+                        import(/* webpackChunkName: 'p__dashboard__monitor__model.ts' */ '/Users/wangjinhu/.Trash/Blog-Frontend/src/pages/dashboard/monitor/model.ts').then(
                           m => {
                             return { namespace: 'model', ...m.default };
                           },
@@ -200,7 +200,7 @@ const routes = [
                       ],
                       component: () =>
                         import(/* webpackChunkName: "layouts__BasicLayout" */ '../dashboard/monitor'),
-                      LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                      LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                         .default,
                     })
                   : require('../dashboard/monitor').default,
@@ -209,7 +209,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('/Users/wangjinhu/Github/AntDesign/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('/Users/wangjinhu/.Trash/Blog-Frontend/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -224,7 +224,7 @@ const routes = [
               ? _dvaDynamic({
                   component: () =>
                     import(/* webpackChunkName: "p__article" */ '../article'),
-                  LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                  LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                     .default,
                 })
               : require('../article').default,
@@ -239,7 +239,7 @@ const routes = [
               ? _dvaDynamic({
                   component: () =>
                     import(/* webpackChunkName: "p__articlelist" */ '../articlelist'),
-                  LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                  LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                     .default,
                 })
               : require('../articlelist').default,
@@ -258,7 +258,7 @@ const routes = [
                   ? _dvaDynamic({
                       app: require('@tmp/dva').getApp(),
                       models: () => [
-                        import(/* webpackChunkName: 'p__articlelist__projects__model.ts' */ '/Users/wangjinhu/Github/AntDesign/src/pages/articlelist/projects/model.ts').then(
+                        import(/* webpackChunkName: 'p__articlelist__projects__model.ts' */ '/Users/wangjinhu/.Trash/Blog-Frontend/src/pages/articlelist/projects/model.ts').then(
                           m => {
                             return { namespace: 'model', ...m.default };
                           },
@@ -266,7 +266,7 @@ const routes = [
                       ],
                       component: () =>
                         import(/* webpackChunkName: "p__articlelist" */ '../articlelist/projects'),
-                      LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                      LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                         .default,
                     })
                   : require('../articlelist/projects').default,
@@ -280,7 +280,7 @@ const routes = [
                   ? _dvaDynamic({
                       app: require('@tmp/dva').getApp(),
                       models: () => [
-                        import(/* webpackChunkName: 'p__articlelist__articles__model.ts' */ '/Users/wangjinhu/Github/AntDesign/src/pages/articlelist/articles/model.ts').then(
+                        import(/* webpackChunkName: 'p__articlelist__articles__model.ts' */ '/Users/wangjinhu/.Trash/Blog-Frontend/src/pages/articlelist/articles/model.ts').then(
                           m => {
                             return { namespace: 'model', ...m.default };
                           },
@@ -288,7 +288,7 @@ const routes = [
                       ],
                       component: () =>
                         import(/* webpackChunkName: "p__articlelist" */ '../articlelist/articles'),
-                      LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                      LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                         .default,
                     })
                   : require('../articlelist/articles').default,
@@ -301,7 +301,7 @@ const routes = [
                   ? _dvaDynamic({
                       app: require('@tmp/dva').getApp(),
                       models: () => [
-                        import(/* webpackChunkName: 'p__articlelist__applications__model.ts' */ '/Users/wangjinhu/Github/AntDesign/src/pages/articlelist/applications/model.ts').then(
+                        import(/* webpackChunkName: 'p__articlelist__applications__model.ts' */ '/Users/wangjinhu/.Trash/Blog-Frontend/src/pages/articlelist/applications/model.ts').then(
                           m => {
                             return { namespace: 'model', ...m.default };
                           },
@@ -309,7 +309,7 @@ const routes = [
                       ],
                       component: () =>
                         import(/* webpackChunkName: "p__articlelist" */ '../articlelist/applications'),
-                      LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                      LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                         .default,
                     })
                   : require('../articlelist/applications').default,
@@ -319,7 +319,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('/Users/wangjinhu/Github/AntDesign/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('/Users/wangjinhu/.Trash/Blog-Frontend/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -338,7 +338,7 @@ const routes = [
                   ? _dvaDynamic({
                       component: () =>
                         import(/* webpackChunkName: "layouts__BasicLayout" */ '../list/search'),
-                      LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                      LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                         .default,
                     })
                   : require('../list/search').default,
@@ -356,7 +356,7 @@ const routes = [
                       ? _dvaDynamic({
                           app: require('@tmp/dva').getApp(),
                           models: () => [
-                            import(/* webpackChunkName: 'p__list__search__articles__model.ts' */ '/Users/wangjinhu/Github/AntDesign/src/pages/list/search/articles/model.ts').then(
+                            import(/* webpackChunkName: 'p__list__search__articles__model.ts' */ '/Users/wangjinhu/.Trash/Blog-Frontend/src/pages/list/search/articles/model.ts').then(
                               m => {
                                 return { namespace: 'model', ...m.default };
                               },
@@ -364,7 +364,7 @@ const routes = [
                           ],
                           component: () =>
                             import(/* webpackChunkName: "layouts__BasicLayout" */ '../list/search/articles'),
-                          LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                          LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                             .default,
                         })
                       : require('../list/search/articles').default,
@@ -379,7 +379,7 @@ const routes = [
                       ? _dvaDynamic({
                           app: require('@tmp/dva').getApp(),
                           models: () => [
-                            import(/* webpackChunkName: 'p__list__search__applications__model.ts' */ '/Users/wangjinhu/Github/AntDesign/src/pages/list/search/applications/model.ts').then(
+                            import(/* webpackChunkName: 'p__list__search__applications__model.ts' */ '/Users/wangjinhu/.Trash/Blog-Frontend/src/pages/list/search/applications/model.ts').then(
                               m => {
                                 return { namespace: 'model', ...m.default };
                               },
@@ -387,7 +387,7 @@ const routes = [
                           ],
                           component: () =>
                             import(/* webpackChunkName: "layouts__BasicLayout" */ '../list/search/applications'),
-                          LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                          LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                             .default,
                         })
                       : require('../list/search/applications').default,
@@ -397,7 +397,7 @@ const routes = [
                   {
                     component: () =>
                       React.createElement(
-                        require('/Users/wangjinhu/Github/AntDesign/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+                        require('/Users/wangjinhu/.Trash/Blog-Frontend/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
                           .default,
                         { pagesPath: 'src/pages', hasRoutesInConfig: true },
                       ),
@@ -412,7 +412,7 @@ const routes = [
                   ? _dvaDynamic({
                       component: () =>
                         import(/* webpackChunkName: "layouts__BasicLayout" */ '../list/table-list'),
-                      LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                      LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                         .default,
                     })
                   : require('../list/table-list').default,
@@ -426,7 +426,7 @@ const routes = [
                   ? _dvaDynamic({
                       app: require('@tmp/dva').getApp(),
                       models: () => [
-                        import(/* webpackChunkName: 'p__list__basic-list__model.ts' */ '/Users/wangjinhu/Github/AntDesign/src/pages/list/basic-list/model.ts').then(
+                        import(/* webpackChunkName: 'p__list__basic-list__model.ts' */ '/Users/wangjinhu/.Trash/Blog-Frontend/src/pages/list/basic-list/model.ts').then(
                           m => {
                             return { namespace: 'model', ...m.default };
                           },
@@ -434,7 +434,7 @@ const routes = [
                       ],
                       component: () =>
                         import(/* webpackChunkName: "layouts__BasicLayout" */ '../list/basic-list'),
-                      LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                      LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                         .default,
                     })
                   : require('../list/basic-list').default,
@@ -448,7 +448,7 @@ const routes = [
                   ? _dvaDynamic({
                       app: require('@tmp/dva').getApp(),
                       models: () => [
-                        import(/* webpackChunkName: 'p__list__card-list__model.ts' */ '/Users/wangjinhu/Github/AntDesign/src/pages/list/card-list/model.ts').then(
+                        import(/* webpackChunkName: 'p__list__card-list__model.ts' */ '/Users/wangjinhu/.Trash/Blog-Frontend/src/pages/list/card-list/model.ts').then(
                           m => {
                             return { namespace: 'model', ...m.default };
                           },
@@ -456,7 +456,7 @@ const routes = [
                       ],
                       component: () =>
                         import(/* webpackChunkName: "layouts__BasicLayout" */ '../list/card-list'),
-                      LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                      LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                         .default,
                     })
                   : require('../list/card-list').default,
@@ -465,7 +465,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('/Users/wangjinhu/Github/AntDesign/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('/Users/wangjinhu/.Trash/Blog-Frontend/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -485,7 +485,7 @@ const routes = [
                   ? _dvaDynamic({
                       app: require('@tmp/dva').getApp(),
                       models: () => [
-                        import(/* webpackChunkName: 'p__profile__basic__model.ts' */ '/Users/wangjinhu/Github/AntDesign/src/pages/profile/basic/model.ts').then(
+                        import(/* webpackChunkName: 'p__profile__basic__model.ts' */ '/Users/wangjinhu/.Trash/Blog-Frontend/src/pages/profile/basic/model.ts').then(
                           m => {
                             return { namespace: 'model', ...m.default };
                           },
@@ -493,7 +493,7 @@ const routes = [
                       ],
                       component: () =>
                         import(/* webpackChunkName: "layouts__BasicLayout" */ '../profile/basic'),
-                      LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                      LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                         .default,
                     })
                   : require('../profile/basic').default,
@@ -507,7 +507,7 @@ const routes = [
                   ? _dvaDynamic({
                       app: require('@tmp/dva').getApp(),
                       models: () => [
-                        import(/* webpackChunkName: 'p__profile__advanced__model.ts' */ '/Users/wangjinhu/Github/AntDesign/src/pages/profile/advanced/model.ts').then(
+                        import(/* webpackChunkName: 'p__profile__advanced__model.ts' */ '/Users/wangjinhu/.Trash/Blog-Frontend/src/pages/profile/advanced/model.ts').then(
                           m => {
                             return { namespace: 'model', ...m.default };
                           },
@@ -515,7 +515,7 @@ const routes = [
                       ],
                       component: () =>
                         import(/* webpackChunkName: "layouts__BasicLayout" */ '../profile/advanced'),
-                      LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                      LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                         .default,
                     })
                   : require('../profile/advanced').default,
@@ -524,7 +524,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('/Users/wangjinhu/Github/AntDesign/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('/Users/wangjinhu/.Trash/Blog-Frontend/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -544,7 +544,7 @@ const routes = [
                   ? _dvaDynamic({
                       component: () =>
                         import(/* webpackChunkName: "layouts__BasicLayout" */ '../result/success'),
-                      LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                      LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                         .default,
                     })
                   : require('../result/success').default,
@@ -558,7 +558,7 @@ const routes = [
                   ? _dvaDynamic({
                       component: () =>
                         import(/* webpackChunkName: "layouts__BasicLayout" */ '../result/fail'),
-                      LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                      LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                         .default,
                     })
                   : require('../result/fail').default,
@@ -567,7 +567,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('/Users/wangjinhu/Github/AntDesign/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('/Users/wangjinhu/.Trash/Blog-Frontend/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -587,7 +587,7 @@ const routes = [
                   ? _dvaDynamic({
                       app: require('@tmp/dva').getApp(),
                       models: () => [
-                        import(/* webpackChunkName: 'p__account__center__model.ts' */ '/Users/wangjinhu/Github/AntDesign/src/pages/account/center/model.ts').then(
+                        import(/* webpackChunkName: 'p__account__center__model.ts' */ '/Users/wangjinhu/.Trash/Blog-Frontend/src/pages/account/center/model.ts').then(
                           m => {
                             return { namespace: 'model', ...m.default };
                           },
@@ -595,7 +595,7 @@ const routes = [
                       ],
                       component: () =>
                         import(/* webpackChunkName: "layouts__BasicLayout" */ '../account/center'),
-                      LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                      LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                         .default,
                     })
                   : require('../account/center').default,
@@ -609,7 +609,7 @@ const routes = [
                   ? _dvaDynamic({
                       app: require('@tmp/dva').getApp(),
                       models: () => [
-                        import(/* webpackChunkName: 'p__account__settings__model.ts' */ '/Users/wangjinhu/Github/AntDesign/src/pages/account/settings/model.ts').then(
+                        import(/* webpackChunkName: 'p__account__settings__model.ts' */ '/Users/wangjinhu/.Trash/Blog-Frontend/src/pages/account/settings/model.ts').then(
                           m => {
                             return { namespace: 'model', ...m.default };
                           },
@@ -617,7 +617,7 @@ const routes = [
                       ],
                       component: () =>
                         import(/* webpackChunkName: "layouts__BasicLayout" */ '../account/settings'),
-                      LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                      LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                         .default,
                     })
                   : require('../account/settings').default,
@@ -626,7 +626,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('/Users/wangjinhu/Github/AntDesign/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('/Users/wangjinhu/.Trash/Blog-Frontend/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -646,7 +646,7 @@ const routes = [
                   ? _dvaDynamic({
                       component: () =>
                         import(/* webpackChunkName: "layouts__BasicLayout" */ '../editor/flow'),
-                      LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                      LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                         .default,
                     })
                   : require('../editor/flow').default,
@@ -660,7 +660,7 @@ const routes = [
                   ? _dvaDynamic({
                       component: () =>
                         import(/* webpackChunkName: "layouts__BasicLayout" */ '../editor/mind'),
-                      LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                      LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                         .default,
                     })
                   : require('../editor/mind').default,
@@ -674,7 +674,7 @@ const routes = [
                   ? _dvaDynamic({
                       component: () =>
                         import(/* webpackChunkName: "layouts__BasicLayout" */ '../editor/koni'),
-                      LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                      LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                         .default,
                     })
                   : require('../editor/koni').default,
@@ -683,7 +683,7 @@ const routes = [
               {
                 component: () =>
                   React.createElement(
-                    require('/Users/wangjinhu/Github/AntDesign/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+                    require('/Users/wangjinhu/.Trash/Blog-Frontend/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
                       .default,
                     { pagesPath: 'src/pages', hasRoutesInConfig: true },
                   ),
@@ -701,7 +701,7 @@ const routes = [
               ? _dvaDynamic({
                   component: () =>
                     import(/* webpackChunkName: "p__404" */ '../404'),
-                  LoadingComponent: require('/Users/wangjinhu/Github/AntDesign/src/components/PageLoading/index')
+                  LoadingComponent: require('/Users/wangjinhu/.Trash/Blog-Frontend/src/components/PageLoading/index')
                     .default,
                 })
               : require('../404').default,
@@ -710,7 +710,7 @@ const routes = [
           {
             component: () =>
               React.createElement(
-                require('/Users/wangjinhu/Github/AntDesign/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+                require('/Users/wangjinhu/.Trash/Blog-Frontend/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
                   .default,
                 { pagesPath: 'src/pages', hasRoutesInConfig: true },
               ),
@@ -720,7 +720,7 @@ const routes = [
       {
         component: () =>
           React.createElement(
-            require('/Users/wangjinhu/Github/AntDesign/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+            require('/Users/wangjinhu/.Trash/Blog-Frontend/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
               .default,
             { pagesPath: 'src/pages', hasRoutesInConfig: true },
           ),
@@ -730,7 +730,7 @@ const routes = [
   {
     component: () =>
       React.createElement(
-        require('/Users/wangjinhu/Github/AntDesign/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+        require('/Users/wangjinhu/.Trash/Blog-Frontend/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
           .default,
         { pagesPath: 'src/pages', hasRoutesInConfig: true },
       ),

@@ -1,5 +1,8 @@
 # API List
 
+api version 兼容
+
+
 ## 账号
 
 1.1 账号登录
