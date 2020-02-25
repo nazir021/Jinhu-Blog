@@ -20,11 +20,11 @@ export function _onCreate() {
     app.use(plugin);
   });
   
-  app.model({ namespace: 'article', ...(require('/Users/wangjinhu/.Trash/Blog-Frontend/src/models/article.ts').default) });
-app.model({ namespace: 'global', ...(require('/Users/wangjinhu/.Trash/Blog-Frontend/src/models/global.ts').default) });
-app.model({ namespace: 'login', ...(require('/Users/wangjinhu/.Trash/Blog-Frontend/src/models/login.ts').default) });
-app.model({ namespace: 'setting', ...(require('/Users/wangjinhu/.Trash/Blog-Frontend/src/models/setting.ts').default) });
-app.model({ namespace: 'user', ...(require('/Users/wangjinhu/.Trash/Blog-Frontend/src/models/user.ts').default) });
+  app.model({ namespace: 'article', ...(require('/Users/wangjinhu/Github/Jinhu-Blog/Blog-Frontend/src/models/article.ts').default) });
+app.model({ namespace: 'global', ...(require('/Users/wangjinhu/Github/Jinhu-Blog/Blog-Frontend/src/models/global.ts').default) });
+app.model({ namespace: 'login', ...(require('/Users/wangjinhu/Github/Jinhu-Blog/Blog-Frontend/src/models/login.ts').default) });
+app.model({ namespace: 'setting', ...(require('/Users/wangjinhu/Github/Jinhu-Blog/Blog-Frontend/src/models/setting.ts').default) });
+app.model({ namespace: 'user', ...(require('/Users/wangjinhu/Github/Jinhu-Blog/Blog-Frontend/src/models/user.ts').default) });
   return app;
 }
 

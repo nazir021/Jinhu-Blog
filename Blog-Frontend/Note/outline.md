@@ -1,1 +1,1 @@
-This is an outline of this prokeyc 
+This is an outline of this project 
