@@ -24,4 +24,18 @@ class BookNotFound extends HttpException {
   }
 }
 
-module.exports = { BookNotFound };
+
+class AuthException extends HttpException {
+    constructor(priority){
+
+    }
+
+
+
+}
+
+
+
+
+
+module.exports = { BookNotFound, AuthException };
