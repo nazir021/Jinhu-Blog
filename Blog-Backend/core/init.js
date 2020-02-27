@@ -1,6 +1,6 @@
 const requireDirectory = require("require-directory");
 const Rouuter = require("koa-router");
-
+// Init Module test
 class InitManager {
     static initCore(app){
         InitManager.app = app
